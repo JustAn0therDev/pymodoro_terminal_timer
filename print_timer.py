@@ -32,7 +32,7 @@ def print_timer(future_time):
         diff = datetime.utcfromtimestamp(ceil(abs(future_time - datetime.now()).total_seconds())).strftime('%H:%M:%S')
         print(figlet_format(diff))
         sleep(1)
-        os.system.__call__('cls\n') if os.name == 'nt' else os.system._call__('clear\n')
+        os.system('cls\n') if os.name == 'nt' else os.system('clear\n')
         
     print(figlet_format("IT'S TIME TO STOP", font='banner3-D'))
     print_image('./its-time-to-stop.png')
