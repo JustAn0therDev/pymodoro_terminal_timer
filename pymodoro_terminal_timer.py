@@ -34,4 +34,4 @@ while(True):
     print_timer(result_from_minutes_added)
 
     if work_timer_activated_count >= 4:
-        print("You have setted at least four work timers. If you didn't take a long break yet, it's highly recommended!")
+        print("\nYou have setted at least four work timers. If you didn't take a long break yet, it's highly recommended!\n")
